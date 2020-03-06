@@ -19,7 +19,6 @@ namespace reverseInt2
                 Reverse = (Reverse * 10) + remainder;
                 Number = Number / 10;
             }
-            Console.WriteLine();
             Console.WriteLine("Reverse No. is {0}", Reverse);
             Console.ReadLine();
         }
